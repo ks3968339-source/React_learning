@@ -35,7 +35,7 @@ const App = () => {
   }
  
   return (
-    <div className="h-screen w-full lg:flex bg-black text-white " >
+    <div className="h-screen w-full lg:flex min-h-screen bg-gradient-to-br from-[#0F172A] via-[#111827] to-[#020617] text-white " >
       
       <form onSubmit={(e)=>{
         submitHandler(e)
